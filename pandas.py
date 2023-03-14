@@ -23,5 +23,6 @@ print(step_counts.dtypes)
 
 step_counts[1:3] = np.NaN
 
-step_counts = step_counts.fillna(0.)
+#step_counts = step_counts.fillna(0.)
+
 print(step_counts[1:3])
